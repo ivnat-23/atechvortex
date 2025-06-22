@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Sitemap: https://ivnat-23.github.io/atechvortex/sitemap.xml
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cgi-bin/
+
+# Allow all other directories
+Allow: /img/
+Allow: /css/
+Allow: /js/
+Allow: /lib/ 
